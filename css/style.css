@@ -40,6 +40,10 @@ main{
     margin-top: 10px;
 }
 
+ul{
+    padding-left:16px;
+}
+
 table{
     border-collapse: collapse;      /*elimina spazio tra colonne della tabella*/
 }
