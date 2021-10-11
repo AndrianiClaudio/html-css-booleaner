@@ -1,8 +1,12 @@
 .img-intestazione{
-    padding: 50px 2px 10px;
+    padding: 50px 5px 10px;
     background: url("../img/pattern.png");
     background-color: #4da1ff;
-    background-size: contrain;
+    background-size: 37%;
+}
+
+#logo{
+    width: 15%;
 }
 
 h5,h6{
