@@ -14,8 +14,12 @@ h1{
     font-weight: 550;
 }
 
-h5,h6{
+.autore-grigio,.data-grigio{
     color: #868686;
+}
+
+h1,.autore-grigio,.data-grigio{
+    margin:2px;
 }
 
 #blue-copyright{
