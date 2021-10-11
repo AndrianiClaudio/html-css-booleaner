@@ -22,9 +22,11 @@
         </div>
 
         <!-- titolo -->
-        <h1>Internet deve essere al servizio del "Bene pubblico": il manifesto di Tim Bernes-Lee</h1>   
-        <h5 class="autore-grigio">Scritto da <span id="blue-copyright">The Booleaner</span></h5>
-        <h6 class="data-grigio">il 10/10/2020</h6>
+        <div>
+            <h1>Internet deve essere al servizio del "Bene pubblico": il manifesto di Tim Bernes-Lee</h1>   
+            <h5 class="autore-grigio">Scritto da <span id="blue-copyright">The Booleaner</span></h5>
+            <h6 class="data-grigio">il 10/10/2020</h6>
+        </div>
     </header>
     <!-- Fine header -->
 
@@ -32,7 +34,7 @@
     <main>
         <!-- Inizio sezione con immagini -->
         <div>
-            <div>
+            <div class="img-main">
                 <img src="img/tim-1.jpg" alt="Tim Berner-Lee mentre parla a 'Knight Foundation'">
                 <img src="img/tim-2.jpg" alt="Foto di Tim Berner-Lee">
             </div>
@@ -72,6 +74,7 @@
         <!-- Inizio sezione tabella -->
         <div>
             <table>
+                <!-- Inizio intestazione colonna -->
                 <thead>
                     <tr>
                         <th class="prima-colonna">Lorem ipsum dolor</th>
@@ -79,6 +82,8 @@
                         <th class="terza-colonna">Lorem ipsum dolor</th>
                     </tr>
                 </thead>
+                <!-- Fine intestazione colonna -->
+                <!-- Inzio corpo colonna -->
                 <tbody>
                     <tr class="riga-dispari-blu">
                         <td class="prima-colonna">Lorem ipsum dolor</td>    
@@ -101,6 +106,7 @@
                         </td>
                     </tr>
                 </tbody>
+                <!-- Fine corpo colonna -->
             </table>
         </div>
         <!-- Fine sezione tabella -->
@@ -119,12 +125,17 @@
     <!-- Inzio footer -->
     <footer>
         <h4 class="titolo-footer-grigio">Potrebbero interessarti</h4>
-        <div id="img-monitor-footer">
-            <span class="scritta-img-footer-bianca">Lorem ipsum dolor</span>
+
+        <!-- Raccolta immagini footer -->
+        <div class="img-footer">
+            <div id="img-monitor-footer">
+                <span class="scritta-img-footer-bianca">Lorem ipsum dolor</span>
+            </div>
+            <div id="img-grafico-footer">
+                <span class="scritta-img-footer-bianca">Lorem ipsum dolor</span>
+            </div>
         </div>
-        <div id="img-grafico-footer">
-            <span class="scritta-img-footer-bianca">Lorem ipsum dolor</span>
-        </div>
+        <!-- Fine raccolta immagini footer -->
     </footer>
     <!-- Fine footer -->
 </body>

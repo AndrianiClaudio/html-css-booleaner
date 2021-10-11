@@ -1,0 +1,58 @@
+body{
+    background-color:rgba(0, 255, 217, 0.523);
+    margin:0 auto;
+    padding: 5% 15%;
+    font-size: 1.5em;
+    text-align: center;
+    color:darkblue;
+}
+
+.img-main > img{
+    display: inline-block;
+}
+
+.img-main > img,table, .img-intestazione{
+    border-style: dashed;
+    border-color:darkblue;
+}
+
+main{
+    background-color: rgba(53, 130, 193, 0.1);
+    padding:2%;
+    border-radius: 5%;
+}
+
+.evidenziato-giallo{
+    background-color: rgba(240,255,0,0.55);
+}
+
+thead{
+    color:rgba(0, 34, 255, 0.803);
+
+}
+
+tr{
+    border-style: solid;
+}
+
+.riga-pari-bianca{
+    background-color:rgba(54, 45, 184, 0.463);
+}
+.img-footer{
+    height: 500px;
+    padding: 2% 20%;
+}
+/* #img-monitor-footer,.img-grafico-footer{
+    display: block;
+} */
+
+#img-monitor-footer,#img-grafico-footer{
+    position: relative;
+    /* height: 250px; */
+}
+#img-monitor-footer{
+    float: left;
+}
+#img-grafico-footer{
+    float:right;
+}
