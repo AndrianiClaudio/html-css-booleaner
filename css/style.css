@@ -27,6 +27,9 @@ h1,.autore-grigio,.data-grigio{
     color: #1eace6;
 }
 
+main{
+    margin-top: 10px;
+}
 .evidenziato-giallo{
     background-color: yellow;
 }
@@ -36,8 +39,8 @@ h1,.autore-grigio,.data-grigio{
     font-size: 75%;
 }
 
-main{
-    margin-top: 10px;
+.div-testo,.div-ul{
+    margin-bottom:25px;
 }
 
 ul{
@@ -66,11 +69,18 @@ thead{
 }
 
 .titolo-footer-grigio{
+    margin-bottom:10px;
     color: #828282;
 }
 
 .scritta-img-footer-bianca{
     color:white;
+}
+
+.scritta-img-footer-bianca,.scritta-img-footer-bianca{
+    display: block;
+    padding: 5%;
+    font-weight: bold;
 }
 
 #img-monitor-footer{
@@ -86,5 +96,5 @@ thead{
     background-size: 100%;
     width: 230px;
     height: 210px;
-    margin: 10px 0;
+    margin-bottom: 10px;
 }
