@@ -29,3 +29,27 @@ thead{
 .riga-dispari-blu{
     background-color: #b2e6f2;
 }
+
+.titolo-footer-grigio{
+    color: #828282;
+}
+
+.scritta-img-footer-bianca{
+    color:white;
+}
+
+#img-monitor-footer{
+    background-image: url("../img/monitor.jpg");
+}
+
+#img-grafico-footer{
+    background-image: url("../img/graph.jpg");
+}
+
+#img-monitor-footer,#img-grafico-footer{
+    background-size: cover;
+    background-size: 100%;
+    width: 230px;
+    height: 210px;
+    margin: 10px 0;
+}
