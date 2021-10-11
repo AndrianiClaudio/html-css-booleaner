@@ -12,3 +12,20 @@ h5,h6{
 #blue-copyright{
     color: #1eace6;
 }
+
+.evidenziato-giallo{
+    background-color: yellow;
+}
+
+table{
+    border-collapse: collapse;      /*elimina spazio tra colonne della tabella*/
+}
+
+thead{
+    background-color: #1aabe6;
+    color:white;
+}
+
+.riga-dispari-blu{
+    background-color: #b2e6f2;
+}
