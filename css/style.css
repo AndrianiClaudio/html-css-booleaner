@@ -1,0 +1,14 @@
+.img-intestazione{
+    padding: 50px 2px 10px;
+    background: url("../img/pattern.png");
+    background-color: #4da1ff;
+    background-size: contrain;
+}
+
+h5,h6{
+    color: #868686;
+}
+
+#blue-copyright{
+    color: #1eace6;
+}
