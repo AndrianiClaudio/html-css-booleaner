@@ -1,4 +1,5 @@
 .img-intestazione{
+    margin-bottom:10px;
     padding: 50px 5px 10px;
     background: url("../img/pattern.png");
     background-color: #4da1ff;
@@ -28,6 +29,15 @@ h1,.autore-grigio,.data-grigio{
 
 .evidenziato-giallo{
     background-color: yellow;
+}
+
+.didascalia-img{
+    display: block;
+    font-size: 75%;
+}
+
+main{
+    margin-top: 10px;
 }
 
 table{
